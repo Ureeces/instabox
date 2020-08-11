@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+span {
+    font-weight: bold;
+    color: black;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: space-between;
+}
+
+#profile {
+    display: flex;
+    flex-direction: row;
+}
+
+#profile-info {
+    flex-direction: column;
+
+}
+
+#following {
+    font-size: 10pt;
+    color: grey;
+}
+
+#others {
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+}
+
+.recommend {
+    
+}
